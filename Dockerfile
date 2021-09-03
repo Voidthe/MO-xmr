@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM alpine:latest
 
 LABEL maintainer="Jerhaad"
 
@@ -26,7 +26,7 @@ RUN set -xe; \
 RUN set -xe; \
     apt-get update; \
     # apt-get upgrade -y; \
-    apt-get install wget libxml2 linux-headers-$(uname -r) gnupg ubuntu-dev-tools software-properties-common -y; \
+    apt-get install wget libxml2 gnupg ubuntu-dev-tools software-properties-common -y; \
     # wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run; \
     # sh cuda_11.2.0_460.27.04_linux.run; \
     wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin; \
