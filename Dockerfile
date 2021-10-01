@@ -61,4 +61,9 @@ WORKDIR /tmp
 COPY entrypoint.sh /
 EXPOSE 3000
 CMD ["/entrypoint.sh"]
+##TODO
+## link to nvida documentation
 #https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation
+#finish setting up wsl compiler
+#test versions
+#connect GPU passthrough
