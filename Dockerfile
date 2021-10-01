@@ -1,4 +1,9 @@
-FROM alpine:latest
+#base lvl
+FROM ubuntu:20.04
+#cuda
+FROM nvidia/cuda:10.2-base
+
+
 
 LABEL maintainer="Jerhaad"
 
@@ -15,6 +20,9 @@ ARG XMRIG_CUDA_VER=6.12.0
 # Let the installs happen on their own
 ENV DEBIAN_FRONTEND=noninteractive 
 
+#allow GPU passthrough
+ENV NVIDIA_DRIVER_CAPABILITIES="compute,video,utility"
+
 # One-off for tzdata
 RUN set -xe; \
     apt update && apt upgrade -y; \
@@ -22,25 +30,11 @@ RUN set -xe; \
     apt install -y tzdata; \
     dpkg-reconfigure --frontend noninteractive tzdata;
 
-# Install CUDA
-RUN set -xe; \
-    apt-get update; \
-    # apt-get upgrade -y; \
-    apt-get install wget libxml2 gnupg ubuntu-dev-tools software-properties-common -y; \
-    # wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run; \
-    # sh cuda_11.2.0_460.27.04_linux.run; \
-    wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin; \
-    mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600; \
-    # apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub; \
-    wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub; \
-    apt-key add 7fa2af80.pub; \ 
-    add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"; \
-    apt-get update; \
-    apt-get -y install cuda;
+
 
 # Install XMRig
 RUN set -xe; \
-    apt-get update && apt-get install build-essential cmake automake libtool autoconf -y; \
+    apt-get update && apt-get install build-essential cmake automake libtool autoconf wget -y; \
     wget https://github.com/MoneroOcean/xmrig/archive/refs/tags/v${XMRIG_VER}.tar.gz; \
     tar xf v${XMRIG_VER}.tar.gz; \
     mkdir -p xmrig-${XMRIG_VER}/build; \
@@ -67,4 +61,4 @@ WORKDIR /tmp
 COPY entrypoint.sh /
 EXPOSE 3000
 CMD ["/entrypoint.sh"]
-
+#https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation
