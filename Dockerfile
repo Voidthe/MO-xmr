@@ -67,3 +67,5 @@ CMD ["/entrypoint.sh"]
 #finish setting up wsl compiler
 #test versions
 #connect GPU passthrough
+
+##tedasuohda
