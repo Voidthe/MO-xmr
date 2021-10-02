@@ -63,9 +63,13 @@ RUN set -xe; \
     make -j$(nproc); \
     cp libxmrig-cuda.so /usr/local/lib/libxmrig-cuda.so;
 
+# Insert config file
+RUN set -xe; \
+    
+
+
 WORKDIR /tmp
 COPY entrypoint.sh /
-COPY ./miner_data /
 EXPOSE 3000
 CMD ["/entrypoint.sh"]
 
