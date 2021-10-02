@@ -3,8 +3,6 @@ FROM ubuntu:20.04
 #cuda
 FROM nvidia/cuda:10.2-base
 
-
-
 LABEL maintainer="Jerhaad"
 
 # USE YOUR TIMEZONE
@@ -49,13 +47,13 @@ RUN set -xe; \
 
 # XMRig-CUDA install
 RUN set -xe; \
-    wget https://github.com/xmrig/xmrig-cuda/archive/refs/tags/v${XMRIG_CUDA_VER}.tar.gz; \
-    tar xf v${XMRIG_CUDA_VER}.tar.gz; \
-    mkdir -p xmrig-cuda-${XMRIG_CUDA_VER}/build; \
-    cd xmrig-cuda-${XMRIG_CUDA_VER}/build; \
-    cmake .. -DCUDA_LIB=/usr/local/cuda/lib64/stubs/libcuda.so -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda; \
-    make -j$(nproc); \
-    cp libxmrig-cuda.so /usr/local/lib/libxmrig-cuda.so;
+    #wget https://github.com/xmrig/xmrig-cuda/archive/refs/tags/v${XMRIG_CUDA_VER}.tar.gz; \
+    #tar xf v${XMRIG_CUDA_VER}.tar.gz; \
+    #mkdir -p xmrig-cuda-${XMRIG_CUDA_VER}/build; \
+    #cd xmrig-cuda-${XMRIG_CUDA_VER}/build; \
+    #cmake .. -DCUDA_LIB=/usr/local/cuda/lib64/stubs/libcuda.so -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda; \
+    #make -j$(nproc); \
+    cp ./libxmrig-cuda.so /usr/local/lib/libxmrig-cuda.so;
 
 WORKDIR /tmp
 COPY entrypoint.sh /
@@ -67,3 +65,5 @@ CMD ["/entrypoint.sh"]
 #finish setting up wsl compiler
 #test versions
 #connect GPU passthrough
+#COMMAND
+#sudo docker build -t voidthe/mo-xmrig:latest ./
