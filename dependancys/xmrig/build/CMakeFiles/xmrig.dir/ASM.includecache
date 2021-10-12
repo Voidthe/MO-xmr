@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/astrobwt/sha3_256_avx2.S
+sha3_256_avx2.inc
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/astrobwt/sha3_256_avx2.inc
+sha3_256_keccakf1600_avx2.inc
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/astrobwt/sha3_256_keccakf1600_avx2.inc
+
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/astrobwt/sha3_256_avx2.inc
+
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/astrobwt/sha3_256_keccakf1600_avx2.inc
+

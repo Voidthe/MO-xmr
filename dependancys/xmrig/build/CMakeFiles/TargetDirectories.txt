@@ -1,0 +1,15 @@
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/rebuild_cache.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/edit_cache.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/xmrig.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/xmrig-asm.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/rebuild_cache.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/edit_cache.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-xop.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/libethash/CMakeFiles/rebuild_cache.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/libethash/CMakeFiles/edit_cache.dir
+/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/libethash/CMakeFiles/ethash.dir
