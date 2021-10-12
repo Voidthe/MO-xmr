@@ -1,4 +1,4 @@
-Sending build context to Docker daemon   16.9kB
+Sending build context to Docker daemon  46.46MB
 Step 1/15 : FROM ubuntu:20.04
  ---> fb52e22af1b0
 Step 2/15 : LABEL maintainer="Jerhaad"
