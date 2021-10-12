@@ -1,0 +1,4 @@
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/build/CMakeFiles/xmrig-cuda.dir
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/build/CMakeFiles/xmrig-cu.dir

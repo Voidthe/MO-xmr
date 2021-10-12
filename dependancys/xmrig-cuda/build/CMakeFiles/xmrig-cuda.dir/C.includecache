@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/src/crypto/cn/c_blake256.c
+string.h
+-
+stdio.h
+-
+stdint.h
+-
+c_blake256.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/src/crypto/cn/c_blake256.h
+
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig-cuda/src/crypto/cn/c_blake256.h
+stdint.h
+-
+
