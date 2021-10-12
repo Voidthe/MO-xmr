@@ -8,13 +8,13 @@
 
 ../src/base/crypto/sha3.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/data_sizes.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/data_sizes.h
 stdint.h
 -
 stdint.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/endian.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/endian.h
 stdint.h
 -
 sys/endian.h
@@ -36,7 +36,7 @@ endian.h
 byteswap.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash.h
 stdint.h
 -
 stdbool.h
@@ -46,7 +46,7 @@ string.h
 stddef.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash_internal.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash_internal.c
 assert.h
 -
 inttypes.h
@@ -60,27 +60,27 @@ math.h
 stdlib.h
 -
 ethash.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash.h
 fnv.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/fnv.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/fnv.h
 endian.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/endian.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/endian.h
 ethash_internal.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash_internal.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash_internal.h
 data_sizes.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/data_sizes.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/data_sizes.h
 base/crypto/sha3.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/base/crypto/sha3.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/base/crypto/sha3.h
 x86intrin.h
 -
 intrin.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash_internal.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash_internal.h
 endian.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/endian.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/endian.h
 ethash.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/ethash.h
 stdio.h
 -
 smmintrin.h
@@ -88,11 +88,11 @@ smmintrin.h
 stdint.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/fnv.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/fnv.h
 stdint.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/keccakf800.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/libethash/keccakf800.c
 stdint.h
 -
 

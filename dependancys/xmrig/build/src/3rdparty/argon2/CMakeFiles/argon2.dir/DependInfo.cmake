@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-arch.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/argon2.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-arch.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/argon2.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -57,11 +57,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/DependInfo.cmake"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/DependInfo.cmake"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/DependInfo.cmake"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/DependInfo.cmake"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/DependInfo.cmake"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/DependInfo.cmake"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/DependInfo.cmake"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/DependInfo.cmake"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/DependInfo.cmake"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

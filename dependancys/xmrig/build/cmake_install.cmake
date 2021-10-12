@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig
+# Install script for directory: /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,15 +37,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/cmake_install.cmake")
-  include("/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/libethash/cmake_install.cmake")
+  include("/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/cmake_install.cmake")
+  include("/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/libethash/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

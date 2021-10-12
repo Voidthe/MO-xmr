@@ -44,7 +44,7 @@ stdint.h
 core.h
 ../src/3rdparty/argon2/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-arch.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-arch.c
 stdint.h
 -
 string.h
@@ -52,41 +52,41 @@ string.h
 stdlib.h
 -
 impl-select.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/impl-select.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/impl-select.h
 argon2-sse2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
 argon2-ssse3.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-ssse3.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-ssse3.h
 argon2-xop.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.h
 argon2-avx2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.h
 argon2-avx512f.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
 argon2-template-64.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-template-64.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-template-64.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-ssse3.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-ssse3.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/argon2.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/argon2.c
 string.h
 -
 stdlib.h
@@ -94,33 +94,33 @@ stdlib.h
 stdio.h
 -
 3rdparty/argon2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
 encoding.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2-impl.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2-impl.h
 stdint.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.c
 string.h
 -
 blake2/blake2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2/blake2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2/blake2.h
 blake2/blake2-impl.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2/blake2-impl.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2/blake2-impl.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.h
 stddef.h
 -
 stdint.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.c
 windows.h
 -
 winbase.h
@@ -134,19 +134,19 @@ stdlib.h
 string.h
 -
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
 blake2/blake2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2.h
 blake2/blake2-impl.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2-impl.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/blake2/blake2-impl.h
 genkat.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
 3rdparty/argon2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.c
 stdio.h
 -
 stdlib.h
@@ -156,37 +156,37 @@ string.h
 limits.h
 -
 encoding.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/encoding.h
 3rdparty/argon2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.c
 inttypes.h
 -
 stdio.h
 -
 genkat.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/genkat.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.c
 time.h
 -
 string.h
 -
 impl-select.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.h
 3rdparty/argon2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/3rdparty/argon2.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/impl-select.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/lib/core.h
 

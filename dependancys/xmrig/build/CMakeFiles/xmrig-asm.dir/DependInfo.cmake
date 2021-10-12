@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/cn/asm/CryptonightR_template.S" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/crypto/cn/asm/cn_main_loop.S" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/crypto/cn/asm/CryptonightR_template.S" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/crypto/cn/asm/cn_main_loop.S" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

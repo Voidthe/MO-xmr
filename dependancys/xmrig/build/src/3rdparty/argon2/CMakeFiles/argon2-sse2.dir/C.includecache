@@ -24,21 +24,21 @@ limits.h
 3rdparty/argon2.h
 ../src/3rdparty/argon2/lib/3rdparty/argon2.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.c
 argon2-sse2.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
 x86intrin.h
 -
 intrin.h
 -
 argon2-template-128.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-template-128.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-template-128.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-template-128.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-template-128.h
 string.h
 -
 x86intrin.h
@@ -46,5 +46,5 @@ x86intrin.h
 intrin.h
 -
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 

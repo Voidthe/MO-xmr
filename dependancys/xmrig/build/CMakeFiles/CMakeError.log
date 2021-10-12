@@ -1,23 +1,23 @@
 Performing C SOURCE FILE Test FEATURE_ssse3_NOFLAG failed with the following output:
-Change Dir: /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_362ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_362ac.dir/build.make CMakeFiles/cmTC_362ac.dir/build
-gmake[1]: Entering directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_362ac.dir/src.c.o
-/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_ssse3_NOFLAG -o CMakeFiles/cmTC_362ac.dir/src.c.o -c /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c
-In file included from /usr/lib/gcc/x86_64-linux-gnu/10/include/immintrin.h:35,
-                 from /usr/lib/gcc/x86_64-linux-gnu/10/include/x86intrin.h:32,
-                 from /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_ssse3’:
-/usr/lib/gcc/x86_64-linux-gnu/10/include/tmmintrin.h:136:1: error: inlining failed in call to ‘always_inline’ ‘_mm_shuffle_epi8’: target specific option mismatch
+Run Build Command(s):/usr/bin/make cmTC_2dfa0/fast && /usr/bin/make -f CMakeFiles/cmTC_2dfa0.dir/build.make CMakeFiles/cmTC_2dfa0.dir/build
+make[1]: Entering directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dfa0.dir/src.c.o
+/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_ssse3_NOFLAG   -o CMakeFiles/cmTC_2dfa0.dir/src.c.o   -c "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c"
+In file included from /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:35,
+                 from /usr/lib/gcc/x86_64-linux-gnu/9/include/x86intrin.h:32,
+                 from /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_ssse3’:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:136:1: error: inlining failed in call to always_inline ‘_mm_shuffle_epi8’: target specific option mismatch
   136 | _mm_shuffle_epi8 (__m128i __X, __m128i __Y)
       | ^~~~~~~~~~~~~~~~
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: note: called from here
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: note: called from here
     5 |     *dst = _mm_shuffle_epi8(*a, *b);
       |            ^~~~~~~~~~~~~~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_362ac.dir/build.make:85: CMakeFiles/cmTC_362ac.dir/src.c.o] Error 1
-gmake[1]: Leaving directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_362ac/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_2dfa0.dir/build.make:66: CMakeFiles/cmTC_2dfa0.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2dfa0/fast] Error 2
 
 
 Source file was:
@@ -31,21 +31,21 @@ void function_ssse3(__m128i *dst, const __m128i *a, const __m128i *b)
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test FEATURE_xop_NOFLAG failed with the following output:
-Change Dir: /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_ff377/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ff377.dir/build.make CMakeFiles/cmTC_ff377.dir/build
-gmake[1]: Entering directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ff377.dir/src.c.o
-/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_xop_NOFLAG -o CMakeFiles/cmTC_ff377.dir/src.c.o -c /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c
-In file included from /usr/lib/gcc/x86_64-linux-gnu/10/include/x86intrin.h:38,
-                 from /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_xop’:
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: error: ‘__builtin_ia32_vprotqi’ needs isa option -mxop
+Run Build Command(s):/usr/bin/make cmTC_664e4/fast && /usr/bin/make -f CMakeFiles/cmTC_664e4.dir/build.make CMakeFiles/cmTC_664e4.dir/build
+make[1]: Entering directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_664e4.dir/src.c.o
+/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_xop_NOFLAG   -o CMakeFiles/cmTC_664e4.dir/src.c.o   -c "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c"
+In file included from /usr/lib/gcc/x86_64-linux-gnu/9/include/x86intrin.h:38,
+                 from /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_xop’:
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: error: ‘__builtin_ia32_vprotqi’ needs isa option -mxop
     5 |     *dst = _mm_roti_epi64(*a, b);
       |            ^~~~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_ff377.dir/build.make:85: CMakeFiles/cmTC_ff377.dir/src.c.o] Error 1
-gmake[1]: Leaving directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_ff377/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_664e4.dir/build.make:66: CMakeFiles/cmTC_664e4.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_664e4/fast] Error 2
 
 
 Source file was:
@@ -59,28 +59,28 @@ void function_xop(__m128i *dst, const __m128i *a, int b)
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test FEATURE_avx2_NOFLAG failed with the following output:
-Change Dir: /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_f021a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f021a.dir/build.make CMakeFiles/cmTC_f021a.dir/build
-gmake[1]: Entering directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f021a.dir/src.c.o
-/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_avx2_NOFLAG -o CMakeFiles/cmTC_f021a.dir/src.c.o -c /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_avx2’:
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:10: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+Run Build Command(s):/usr/bin/make cmTC_3c798/fast && /usr/bin/make -f CMakeFiles/cmTC_3c798.dir/build.make CMakeFiles/cmTC_3c798.dir/build
+make[1]: Entering directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c798.dir/src.c.o
+/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_avx2_NOFLAG   -o CMakeFiles/cmTC_3c798.dir/src.c.o   -c "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c"
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_avx2’:
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:10: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
     5 |     *dst = _mm256_xor_si256(*a, *b);
       |     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from /usr/lib/gcc/x86_64-linux-gnu/10/include/immintrin.h:53,
-                 from /usr/lib/gcc/x86_64-linux-gnu/10/include/x86intrin.h:32,
-                 from /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
-/usr/lib/gcc/x86_64-linux-gnu/10/include/avx2intrin.h:913:1: error: inlining failed in call to ‘always_inline’ ‘_mm256_xor_si256’: target specific option mismatch
+In file included from /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:53,
+                 from /usr/lib/gcc/x86_64-linux-gnu/9/include/x86intrin.h:32,
+                 from /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h:913:1: error: inlining failed in call to always_inline ‘_mm256_xor_si256’: target specific option mismatch
   913 | _mm256_xor_si256 (__m256i __A, __m256i __B)
       | ^~~~~~~~~~~~~~~~
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: note: called from here
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: note: called from here
     5 |     *dst = _mm256_xor_si256(*a, *b);
       |            ^~~~~~~~~~~~~~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_f021a.dir/build.make:85: CMakeFiles/cmTC_f021a.dir/src.c.o] Error 1
-gmake[1]: Leaving directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_f021a/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_3c798.dir/build.make:66: CMakeFiles/cmTC_3c798.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3c798/fast] Error 2
 
 
 Source file was:
@@ -94,25 +94,25 @@ void function_avx2(__m256i *dst, const __m256i *a, const __m256i *b)
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test FEATURE_avx512f_NOFLAG failed with the following output:
-Change Dir: /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_360dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_360dd.dir/build.make CMakeFiles/cmTC_360dd.dir/build
-gmake[1]: Entering directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_360dd.dir/src.c.o
-/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_avx512f_NOFLAG -o CMakeFiles/cmTC_360dd.dir/src.c.o -c /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c
-In file included from /usr/lib/gcc/x86_64-linux-gnu/10/include/immintrin.h:55,
-                 from /usr/lib/gcc/x86_64-linux-gnu/10/include/x86intrin.h:32,
-                 from /home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_avx512f’:
-/usr/lib/gcc/x86_64-linux-gnu/10/include/avx512fintrin.h:204:1: error: inlining failed in call to ‘always_inline’ ‘_mm512_undefined_epi32’: target specific option mismatch
+Run Build Command(s):/usr/bin/make cmTC_d651e/fast && /usr/bin/make -f CMakeFiles/cmTC_d651e.dir/build.make CMakeFiles/cmTC_d651e.dir/build
+make[1]: Entering directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d651e.dir/src.c.o
+/usr/bin/cc   -Wall -Wno-strict-aliasing -maes -DFEATURE_avx512f_NOFLAG   -o CMakeFiles/cmTC_d651e.dir/src.c.o   -c "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c"
+In file included from /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:55,
+                 from /usr/lib/gcc/x86_64-linux-gnu/9/include/x86intrin.h:32,
+                 from /mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:1:
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c: In function ‘function_avx512f’:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:204:1: error: inlining failed in call to always_inline ‘_mm512_undefined_epi32’: target specific option mismatch
   204 | _mm512_undefined_epi32 (void)
       | ^~~~~~~~~~~~~~~~~~~~~~
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: note: called from here
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp/src.c:5:12: note: called from here
     5 |     *dst = _mm512_ror_epi64(*a, 57);
       |            ^~~~~~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_360dd.dir/build.make:85: CMakeFiles/cmTC_360dd.dir/src.c.o] Error 1
-gmake[1]: Leaving directory '/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_360dd/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d651e.dir/build.make:66: CMakeFiles/cmTC_d651e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d651e/fast] Error 2
 
 
 Source file was:

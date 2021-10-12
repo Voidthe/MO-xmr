@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.c" "/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.o"
+  "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.c" "/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

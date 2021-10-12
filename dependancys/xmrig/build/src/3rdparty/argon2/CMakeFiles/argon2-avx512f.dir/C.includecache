@@ -24,9 +24,9 @@ limits.h
 3rdparty/argon2.h
 ../src/3rdparty/argon2/lib/3rdparty/argon2.h
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.c
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.c
 argon2-avx512f.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
 stdint.h
 -
 string.h
@@ -36,7 +36,7 @@ x86intrin.h
 intrin.h
 -
 
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
 core.h
-/home/leo/Documents/Github/MO-XMR/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/mnt/c/Users/leo/Documents/Github projects/MO-xmr/dependancys/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 
