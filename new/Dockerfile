@@ -1,20 +1,37 @@
-FROM nvidia/cuda:11.0-base
 FROM ubuntu:20.04
+ENV DEBIAN_FRONTEND=noninteractive
 #enable CUDA support????
-ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=all
+RUN set -xe; \
+    apt update; \
+    apt install software-properties-common wget -y; \
+    wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub; \
+    apt-key add 7fa2af80.pub; \ 
+    add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"; \
+    apt-get update; \
+    apt-get -y install cuda;
+#give library access to docker container
+RUN apt update
+RUN apt install libssl1.1 libhwloc-dev -y
+WORKDIR /exes
+##copy the required files
+COPY  /exes/ /exes/
+COPY /entrypoint.sh /
 
-#build xmr-mo from git
-RUN set -xe;\
-    apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev; \
-    git clone https://github.com/xmrig/xmrig.git; \
-    mkdir xmrig/build && cd xmrig/build; \
-    cmake ..; \
-    make -j$(nproc);
+#start the miner
+CMD ["/entrypoint.sh"]
 
-#build xmr-mo-cuda from git
-RUN set -xe;\
-    git clone https://github.com/xmrig/xmrig-cuda.git;\
-    mkdir xmrig-cuda/build && cd xmrig-cuda/build;\
-    cmake .. -DCUDA_LIB=/usr/local/cuda/lib64/stubs/libcuda.so -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda;\
-    make -j$(nproc);
+
+##isues with code so far
+#the docker container does not allow for an alternate config files this will be fixed by mounting the /exes folder in unraid
+#its very simple but also requires the dependancys to be precreated so each new version will require an update (automate)
+#librarys are missing
+
+
+##build command/push command (public)
+#docker build -t voidthe/mo-xmrig:latest ./
+#docker push voidthe/mo-xmrig:latest
+
+##build command/push command (local)
+#docker build -t 192.168.0.247:5000/voidthe/mo-xmrig:latest ./
+#docker push 192.168.0.247:5000/voidthe/mo-xmrig:latest
