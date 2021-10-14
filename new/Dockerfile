@@ -23,13 +23,4 @@ CMD ["/entrypoint.sh"]
 
 
 ##isues with code so far
-#the docker container does not allow for an alternate config files this will be fixed by mounting the /exes folder in unraid
 #its very simple but also requires the dependancys to be precreated so each new version will require an update (automate)
-
-##build command/push command (public)
-# docker build -t voidthe/mo-xmrig:latest ./
-# docker push voidthe/mo-xmrig:latest
-
-##build command/push command (local)
-# docker build -t hub.voidthe.com/voidthe/mo-xmrig:latest ./
-# docker push hub.voidthe.com/voidthe/mo-xmrig:latest
